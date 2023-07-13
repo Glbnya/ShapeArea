@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeArea", "ShapeArea.csproj", "{D1BD87A3-7005-458C-A2D8-28CEAA0755E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea.Test", "..\ShapeArea.Test\ShapeArea.Test.csproj", "{B3DCCBE0-ABEB-422F-AB84-F885F90E2C93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1BD87A3-7005-458C-A2D8-28CEAA0755E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BD87A3-7005-458C-A2D8-28CEAA0755E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BD87A3-7005-458C-A2D8-28CEAA0755E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BD87A3-7005-458C-A2D8-28CEAA0755E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DCCBE0-ABEB-422F-AB84-F885F90E2C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DCCBE0-ABEB-422F-AB84-F885F90E2C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DCCBE0-ABEB-422F-AB84-F885F90E2C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DCCBE0-ABEB-422F-AB84-F885F90E2C93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA0E114F-B362-43A4-9C4F-984524BDC3C7}
+	EndGlobalSection
+EndGlobal
