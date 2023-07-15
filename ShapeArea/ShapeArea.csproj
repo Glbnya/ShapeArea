@@ -4,6 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Glbb.ShapeArea</PackageId>
+    <Title>+</Title>
+    <Authors />
+    <Description>Отклик </Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/Glbnya/ShapeArea</PackageProjectUrl>
+    <PackageTags>ShapeArea</PackageTags>
   </PropertyGroup>
 
 </Project>

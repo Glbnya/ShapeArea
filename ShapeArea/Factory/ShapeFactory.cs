@@ -17,7 +17,7 @@ namespace ShapeArea.Factory
             return new Circle(radius);
         }
 
-        public static AbstractShape Create(double sideA, double sideB, double sideC)
+        public static Triangle Create(double sideA, double sideB, double sideC)
         {
             if (sideA <= 0 || sideB <= 0 || sideC <= 0)
                 throw new ArgumentException("Сторона треугольника не может быть меньше или равна 0");
