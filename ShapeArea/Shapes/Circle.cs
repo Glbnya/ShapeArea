@@ -6,6 +6,6 @@ namespace ShapeArea.Shapes
     {
         public Circle(double radius) => Radius = radius;
         private double Radius { get; }
-        public override double GetArea() => Radius * Radius * 3.14;
+        public override double GetArea() => Radius * Radius * Math.PI;
     }
 }
