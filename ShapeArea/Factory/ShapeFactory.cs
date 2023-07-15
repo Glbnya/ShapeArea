@@ -16,7 +16,14 @@ namespace ShapeArea.Factory
 
             return new Circle(radius);
         }
-
+        /// <summary>
+        /// Создание треугольника
+        /// </summary>
+        /// <param name="sideA"></param>
+        /// <param name="sideB"></param>
+        /// <param name="sideC"></param>
+        /// <returns>Поменял тип выходных данных, чтобы .iSRightTriangle() был доступен при создании класса</returns>
+        /// <exception cref="ArgumentException"></exception>
         public static Triangle Create(double sideA, double sideB, double sideC)
         {
             if (sideA <= 0 || sideB <= 0 || sideC <= 0)
